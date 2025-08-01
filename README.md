@@ -25,23 +25,9 @@ A lightweight interactive CLI utility to compare two `.txt` files containing pac
 
 ---
 
-## 📁 Project Structure
-
-```
-
-package-compare-cli/
-├── compare\_packages.py
-├── packages\_A.txt
-├── packages\_B.txt
-└── README.md
-
-````
-
----
-
 ## ⚙️ Installation & Setup
 
-1. Clone or save the script as `compare_packages.py`.
+1. Clone or save the script.
 2. Create two package list files (`.txt`) with package names — one per line.
 
 Example:
@@ -65,7 +51,7 @@ com.example.app2
 Run the script:
 
 ```bash
-python compare_packages.py
+python main.py
 ```
 
 Then follow these steps:
